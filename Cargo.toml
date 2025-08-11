@@ -1,0 +1,12 @@
+[package]
+name = "blazzzy"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+criterion = { version = "0.7.0", features = ["html_reports"] }
+rand = "0.9.2"
+
+[[bench]]
+name = "aos_soa"
+harness = false
