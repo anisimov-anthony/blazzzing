@@ -16,5 +16,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Run all benchmarks
-      run: cargo bench
+    - name: Run
+      run: cargo run
